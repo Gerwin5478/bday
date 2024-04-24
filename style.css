@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(elegant-balloons-frame-design-mobile-phone-wallpaper-vector_53876-167897.avif);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+}
+.message p{
+    font-size: 50px;
+
+}
+.msg1{
+    position: relative;top: 250px;
+    animation: m1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    visibility: hidden;
+}
+.msg2{
+    position: relative;top: 160px;
+    animation: m2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    visibility: hidden;
+}
+.msg3{
+    position: relative;top: 80px;
+    animation: m3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    visibility: hidden;
+}
+.msg4{
+    animation: m4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    visibility: hidden;
+}
+@keyframes m1 {
+    10%{visibility: visible;}
+    19%{visibility: visible;}
+    20%{visibility: hidden;}
+    30%{visibility: hidden;}
+    40%{visibility: hidden;}
+    
+}
+@keyframes m2 {
+    10%{visibility: hidden;}
+    20%{visibility: hidden;}
+    30%{visibility: visible;}
+    40%{visibility: visible;}
+    50%{visibility: visible;}
+    51%{visibility: hidden;}
+    
+}
+@keyframes m3 {
+    10%{visibility: hidden;}
+    20%{visibility: hidden;}
+    30%{visibility: hidden;}
+    40%{visibility: hidden;}
+    50%{visibility: hidden;}
+    51%{visibility: hidden;}
+    70%{visibility: visible;}
+    80%{visibility: hidden;}
+    81%{visibility: hidden;}
+
+    
+}
+@keyframes m4 {
+    10%{visibility: hidden;}
+    20%{visibility: hidden;}
+    30%{visibility: hidden;}
+    40%{visibility: hidden;}
+    50%{visibility: hidden;}
+    60%{visibility: hidden;}
+    70%{visibility: hidden;}
+    80%{visibility: hidden;}
+    90%{visibility: visible;}
+    100%{visibility: visible;}
+    
+    
+}
+@media only screen and (min-width:1024px) {
+    body{
+        background-image: url(pngtree-birthday-cake-balloons-gift-purple-background-image_14002807.jpg);
+    }
+    .message p{
+        font-size: 100px;
+    }
+}
